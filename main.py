@@ -591,7 +591,6 @@ class ModelCA:
         else:
             raise Exception(f'{self.model_type} has not been implemented')
         """ 
-        #Useless with Natixis laptop
         device = "cpu"
         if torch.cuda.is_available():
             device = "cuda:0"
