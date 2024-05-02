@@ -6,6 +6,6 @@ The second neural network is trained with several hidden layers and has as input
 Finally, the outputs of these two networks are multiplied to create the return predictions deduced from the risk-free rate.
 The function to be maximized is the R2 score between initial and predicted returns.
 
-I implemented the various steps of the paper using pytorch and came up with results close to those of the authors, showing that autoencoders perform better than conventional models such as PCA or the fama and french model.
+I implemented the various steps of the paper using PyTorch and came up with results close to those of the authors, showing that autoencoders perform better than conventional models such as PCA or the Fama and French factor model.
 
-This better performance can be deduced from the fact that applying non-linear transformations to asset characteristics enables the extraction of complex patterns and the construction of highly informative informative factor exposures.
+This better performance can be deduced from the fact that applying non-linear transformations to asset characteristics enables the extraction of complex patterns and the construction of highly informative factor exposures.
